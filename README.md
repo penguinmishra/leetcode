@@ -1,10 +1,6 @@
 ### Purpose
 - I wanted a repo to add java solutions to the problems posted on leetcode. So, this is the one.
 
-### Notes
-- I have added to each java solution file a link to the actual problem statement.
-- You can create a PR for review and if it works, I shall approve the PR and add it as a solution to the problem. :slightly_smiling_face:
-
 ### Problems & their links:
 | Problem | Category | Problem Link |
 | ------- | -------- | -------------|
@@ -22,3 +18,8 @@
 | 732. My Calendar III | Hard | https://leetcode.com/problems/my-calendar-iii/ |
 | 981. Time Based Key-Value Store | Medium | https://leetcode.com/problems/time-based-key-value-store/ |
 | 242. Valid Anagram | Easy | https://leetcode.com/problems/valid-anagram/ |
+
+
+### Notes
+- I have added to each java solution file a link to the actual problem statement.
+- You can create a PR for review and if it works, I shall approve the PR and add it as a solution to the problem. :slightly_smiling_face:
