@@ -3,6 +3,9 @@ package com.code.leetcode;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * https://leetcode.com/problems/my-calendar-iii/
+ */
 public class MyCalendarThree {
 
 	private Map<Integer, Integer> timeline;
