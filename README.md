@@ -21,4 +21,18 @@
 | 732. My Calendar III | Hard | https://leetcode.com/problems/my-calendar-iii/ |
 | 981. Time Based Key-Value Store | Medium | https://leetcode.com/problems/time-based-key-value-store/ |
 | 242. Valid Anagram | Easy | https://leetcode.com/problems/valid-anagram/ |
-
+| 11. Container With Most Water | Medium | https://leetcode.com/problems/container-with-most-water/ |
+| 338. Counting Bits | Easy | https://leetcode.com/problems/counting-bits/ |
+| 91. Decode Ways | Medium | https://leetcode.com/problems/decode-ways/ |
+| 287. Find the Duplicate Number | Medium | https://leetcode.com/problems/find-the-duplicate-number/ |
+| 890. Find and Replace Pattern | Medium | https://leetcode.com/problems/find-and-replace-pattern/ |
+| 658. Find K Closest Elements | Medium | https://leetcode.com/problems/find-k-closest-elements/ |
+| 2007. Find Original Array From Doubled Array | Medium | https://leetcode.com/problems/find-original-array-from-doubled-array/ |
+| 34. Find First and Last Position of Element in Sorted Array | Medium | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |
+| 2351. First Letter to Appear Twice | Easy | https://leetcode.com/contest/weekly-contest-303/problems/first-letter-to-appear-twice/ |
+| 387. First Unique Character in a String | Easy | https://leetcode.com/problems/first-unique-character-in-a-string/ |
+| 114. Flatten Binary Tree to Linked List | Medium | https://leetcode.com/problems/flatten-binary-tree-to-linked-list/ |
+| 22. Generate Parentheses | Medium | https://leetcode.com/problems/generate-parentheses/ |
+| 12. Integer to Roman | Medium | https://leetcode.com/problems/integer-to-roman/ |
+| 392. Is Subsequence | Easy | https://leetcode.com/problems/is-subsequence |
+| 98. Validate Binary Search Tree | Medium | https://leetcode.com/problems/validate-binary-search-tree/ |
