@@ -37,3 +37,4 @@
 | 392. Is Subsequence | Easy | https://leetcode.com/problems/is-subsequence |
 | 98. Validate Binary Search Tree | Medium | https://leetcode.com/problems/validate-binary-search-tree/ |
 | 16. 3Sum Closest | Medium | https://leetcode.com/problems/3sum-closest/ |
+| 15. 3Sum | Medium | https://leetcode.com/problems/3sum/ |
