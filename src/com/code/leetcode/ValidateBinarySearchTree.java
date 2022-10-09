@@ -13,7 +13,12 @@ public class ValidateBinarySearchTree {
 		root.right = a.new TreeNode(4);
 		root.right.left = a.new TreeNode(3);
 		root.right.right = a.new TreeNode(6);
+		long s1 = System.currentTimeMillis();
 		System.out.println(a.isValidBST(root));
+		System.out.println(System.currentTimeMillis() - s1);
+		long s2 = System.currentTimeMillis();
+		System.out.println(a.isValidBST2(root));
+		System.out.println(System.currentTimeMillis() - s2);
 	}
 
 	public boolean isValidBST(TreeNode root) {
@@ -50,6 +55,24 @@ public class ValidateBinarySearchTree {
 		}
 		return true;
 	}
+	
+	public boolean isValidBST2(TreeNode root) {
+        if(root == null) {
+            return true;
+        }
+        
+        return validBSTRecursive(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+    
+    public boolean validBSTRecursive(TreeNode root, long minValue, long maxValue) {
+        if(root == null) {
+            return true;
+        } else if(root.val >= maxValue || root.val <= minValue) {
+            return false;
+        } else {
+            return validBSTRecursive(root.left, minValue, root.val) && validBSTRecursive(root.right, root.val, maxValue);
+        }
+    }
 
 	class TreeNode {
 		int val;
