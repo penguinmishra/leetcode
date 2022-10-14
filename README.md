@@ -42,5 +42,5 @@
 | 1328. Break a Palindrome | Medium | https://leetcode.com/problems/break-a-palindrome/ |
 | 976. Largest Perimeter Triangle | Easy | https://leetcode.com/problems/largest-perimeter-triangle/ |
 | 237. Delete Node in a Linked List | Medium | https://leetcode.com/problems/delete-node-in-a-linked-list/ |
-
+| 2095. Delete the Middle Node of a Linked List | Medium | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ |
 
