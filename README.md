@@ -43,4 +43,5 @@
 | 976. Largest Perimeter Triangle | Easy | https://leetcode.com/problems/largest-perimeter-triangle/ |
 | 237. Delete Node in a Linked List | Medium | https://leetcode.com/problems/delete-node-in-a-linked-list/ |
 | 2095. Delete the Middle Node of a Linked List | Medium | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ |
+| 1335. Minimum Difficulty of a Job Schedule | Hard | https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/ |
 
