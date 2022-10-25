@@ -47,3 +47,9 @@
 | 1832. Check if the Sentence Is Pangram | Easy | https://leetcode.com/problems/check-if-the-sentence-is-pangram/ |
 | 692. Top K Frequent Words | Medium | https://leetcode.com/problems/top-k-frequent-words/ |
 | 219. Contains Duplicate II | Easy | https://leetcode.com/problems/contains-duplicate-ii/ |
+| 1662. Check If Two String Arrays are Equivalent | Easy | https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/ |
+| 1239. Maximum Length of a Concatenated String with Unique Characters | Medium | https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/ |
+| 645. Set Mismatch | Easy | https://leetcode.com/problems/set-mismatch/ |
+
+
+
