@@ -50,6 +50,8 @@
 | 1662. Check If Two String Arrays are Equivalent | Easy | https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/ |
 | 1239. Maximum Length of a Concatenated String with Unique Characters | Medium | https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/ |
 | 645. Set Mismatch | Easy | https://leetcode.com/problems/set-mismatch/ |
+| 1544. Make The String Great | Easy | https://leetcode.com/problems/make-the-string-great/description/ |
+| 433. Minimum Genetic Mutation | Medium | https://leetcode.com/problems/minimum-genetic-mutation/ |
 
 
 
