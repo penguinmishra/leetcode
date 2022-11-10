@@ -52,6 +52,7 @@
 | 645. Set Mismatch | Easy | https://leetcode.com/problems/set-mismatch/ |
 | 1544. Make The String Great | Easy | https://leetcode.com/problems/make-the-string-great/description/ |
 | 433. Minimum Genetic Mutation | Medium | https://leetcode.com/problems/minimum-genetic-mutation/ |
+| 1047. Remove All Adjacent Duplicates In String | Easy | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ |
 
 
 
