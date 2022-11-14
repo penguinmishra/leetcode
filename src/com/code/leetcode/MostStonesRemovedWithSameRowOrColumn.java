@@ -13,6 +13,13 @@ public class MostStonesRemovedWithSameRowOrColumn {
 		System.out.println(o.removeStones(stones));
 	}
 
+	/**
+	 * returns <code>stones.length - i</code> because if there are 6 connected
+	 * nodes, <code>i</code> would be 1 (# of islands = 1). In this case, the answer
+	 * should be 5 because question does not remove all 6 nodes - only 1 is left
+	 * out. So, we need to do <code>length -
+	 * i</code> (length - # of islands) to achieve the answer.
+	 */
 	public int removeStones(int[][] stones) {
 		Set<int[]> visited = new HashSet<>();
 		int i = 0;
