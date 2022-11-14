@@ -1,0 +1,36 @@
+package com.code.leetcode;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+ */
+public class MostStonesRemovedWithSameRowOrColumn {
+	public static void main(String[] args) {
+		MostStonesRemovedWithSameRowOrColumn o = new MostStonesRemovedWithSameRowOrColumn();
+		int[][] stones = { { 0, 0 }, { 0, 1 }, { 1, 0 }, { 1, 2 }, { 2, 1 }, { 2, 2 } };
+		System.out.println(o.removeStones(stones));
+	}
+
+	public int removeStones(int[][] stones) {
+		Set<int[]> visited = new HashSet<>();
+		int i = 0;
+		for (int[] stone : stones) {
+			if (!visited.contains(stone)) {
+				dfs(stone, visited, stones);
+				i += 1;
+			}
+		}
+		return stones.length - i;
+	}
+
+	private void dfs(int[] stone, Set<int[]> visited, int[][] stones) {
+		visited.add(stone);
+		for (int[] nextStone : stones) {
+			if (!visited.contains(nextStone) && (nextStone[0] == stone[0] || nextStone[1] == stone[1])) {
+				dfs(nextStone, visited, stones);
+			}
+		}
+	}
+}
