@@ -56,5 +56,6 @@
 | 26. Remove Duplicates from Sorted Array | Easy | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ |
 | 901. Online Stock Span | Medium | https://leetcode.com/problems/online-stock-span/ |
 | 947. Most Stones Removed with Same Row or Column | Medium | https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/ |
+| 222. Count Complete Tree Nodes | Medium | https://leetcode.com/problems/count-complete-tree-nodes/ |
 
 
