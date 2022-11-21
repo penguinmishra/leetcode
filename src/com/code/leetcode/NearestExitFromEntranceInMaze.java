@@ -21,17 +21,18 @@ public class NearestExitFromEntranceInMaze {
 		Queue<int[]> queue = new LinkedList<>();
 		int[][] directions = { { 0, 1 }, { 0, -1 }, { 1, 0 }, { -1, 0 } };
 		int ans = 0;
+		
+		// offer + mark visited
 		queue.offer(entrance);
+		maze[entrance[0]][entrance[1]] = '+';
 		
 		while(!queue.isEmpty()) {
 			ans++;
 			int size = queue.size();
 			while(size-- > 0) {
-				// poll + mark visited
 				int[] current = queue.poll();
 				int x = current[0];
 				int y = current[1];
-				maze[x][y] = '+';
 				for(int[] dir : directions) {
 					int newX = x + dir[0];
 					int newY = y + dir[1];

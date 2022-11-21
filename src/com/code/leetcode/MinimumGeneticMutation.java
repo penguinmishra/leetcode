@@ -29,19 +29,22 @@ public class MinimumGeneticMutation {
 		int answer = 0;
 
 		Queue<String> q = new LinkedList<>();
+		Set<String> visited = new HashSet<>();
+		
 		Set<Character> charSet = new HashSet<>(List.of('A', 'C', 'G', 'T'));
 		Set<String> bankSet = new HashSet<>();
+		
 		for (String bankStr : bank)
 			bankSet.add(bankStr);
 
+		// offer + mark visited
 		q.offer(startGene);
-		Set<String> visited = new HashSet<>();
+		visited.add(startGene);
 
 		while (!q.isEmpty()) {
 			int size = q.size(); // size of the q can increase/decrease inside the while loop. So, store in a variable
 			while (size-- > 0) {
 				String s = q.poll();
-				visited.add(s);
 				if (Objects.equals(s, endGene))
 					return answer;
 				char[] startCharArr = s.toCharArray();
@@ -51,6 +54,7 @@ public class MinimumGeneticMutation {
 						startCharArr[i] = b;
 						String m = new String(startCharArr);
 						if (bankSet.contains(m) && !visited.contains(m)) {
+							// offer + mark visited
 							q.offer(m);
 							visited.add(m);
 						}
