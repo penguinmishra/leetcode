@@ -58,6 +58,7 @@
 | 947. Most Stones Removed with Same Row or Column | Medium | https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/ |
 | 222. Count Complete Tree Nodes | Medium | https://leetcode.com/problems/count-complete-tree-nodes/ |
 | 374. Guess Number Higher or Lower | Easy | https://leetcode.com/problems/guess-number-higher-or-lower/ |
+| 1926. Nearest Exit from Entrance in Maze | Medium | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/ |
 
 
 
