@@ -60,5 +60,5 @@
 | 374. Guess Number Higher or Lower | Easy | https://leetcode.com/problems/guess-number-higher-or-lower/ |
 | 1926. Nearest Exit from Entrance in Maze | Medium | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/ |
 | 279. Perfect Squares | Medium | https://leetcode.com/problems/perfect-squares/ |
-
+| 36. Valid Sudoku | Medium | https://leetcode.com/problems/valid-sudoku/ |
 
